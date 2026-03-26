@@ -5,7 +5,8 @@
 | __01__ - 27/02/26    | :material-check: Apresentação da Disciplina - Processo de Desenvolvimento <br> :material-check: Processo de Desenvolvimento - [Do Cascata ao Ágil](../assets/Aulas/Do%20Cascata%20ao%20Ágil.pdf) |
 | __02__ - 06/03/26     | :material-check: [Configuração de Ambiente de Desenvolvimento](https://liveestacio-my.sharepoint.com/:w:/g/personal/00661711722_professores_ibmec_edu_br/EU2fCcJwgTFLvWNyOSUtNWABng3aZ0HtBI38y6beD8dItQ?e=Co0eY2) <br> :material-check: Configuração repositório  |
 | __03__ - 13/03/26     | :material-check: [RUP](../assets/Aulas/RUP.pdf) |
-| __04__ - 20/03/26     | :material-check: |
+| __04__ - 20/03/26     | :material-check: Tema | 
+| __05__ - 27/03/26     | :material-check: Elaboração 5w2h  <br> :material-check:[Brainstorm](../assets/Aulas/O%20processo%20de brainstorm.pdf) e [Mapa Mental](../assets/Aulas/Mapa%20Mental.pdf)|
 
 <!--
 | __01__ - 06/08/25    | :material-check: Apresentação da Disciplina - Processo de Desenvolvimento <br> :material-check: Processo de Desenvolvimento -[Do Cascata ao Ágil](../assets/Aulas/Do%20Cascata%20ao%20Ágil.pdf) |
