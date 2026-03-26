@@ -4,9 +4,21 @@ title: Pesquisa
 ---
 
 # Pesquisa
-## Pesquisa
-### Pesquisa
+### **1. Capa**
 
-Pesquisa realizada para compreensão das principais características do Aplicativo de **Streaming**.
+- Tema: 
+- Data: 2026.1
+- Stakeholder: Pro-Reitoria Acadêmica
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
+---
+
+### **2. Pesquisa**
+
+- **Contexto do Projeto**: Breve descrição do problema ou oportunidade.
+- **Objetivo**: O que se espera alcançar com o projeto.
+- **Público-Alvo**: Quem será impactado pela solução.
+- **Escopo**: Limites e abrangência do projeto.
+- **Analise** de aplicações e mercado
+- Levantamento de **Legislação**
+
+---
