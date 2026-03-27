@@ -1,0 +1,78 @@
+@startmindmap mapamental
+* Problema de Estagio
+** Contexto
+*** Aplicacao web de gestao de estagio
+*** Modulo de relatorio final
+*** Validacao apos submissao
+** Problema Central
+*** Analise manual lenta
+*** Fila de aprovacao
+*** Erros simples passam para revisao humana
+*** Baixa padronizacao dos relatorios
+** Objetivos
+*** Reduzir tempo de analise
+*** Diminuir erros de conformidade
+*** Acelerar aprovacao
+*** Padronizar criterios de avaliacao
+** Stakeholders
+*** Estagiario
+**** Envia relatorio
+**** Recebe feedback para correcao
+*** Coordenador
+**** Define regras
+**** Revisa casos pendentes
+*** Equipe de desenvolvimento
+**** Implementa validadores e painel
+-- Causas Raiz
+--- Ausencia de checklist automatico
+--- Regras dispersas entre cursos
+--- Dependencia total de revisao manual
+--- Falta de feedback imediato ao aluno
+-- Solucao Proposta
+--- Validacao automatica em pipeline
+---- Sintatica
+---- Estrutural
+---- Semantica
+*** Motor de regras configuravel
+*** Feedback detalhado por secao
+*** Painel de status para coordenacao
+** Regras Iniciais
+*** Campos obrigatorios
+**** Nome
+**** Matricula
+**** Empresa
+**** Periodo
+**** Orientador
+*** Formato de arquivo
+**** PDF ou DOCX
+**** Limite de tamanho
+*** Estrutura minima
+**** Capa
+**** Introducao
+**** Atividades
+**** Resultados
+**** Conclusao
+** MVP
+*** Validacao de campos obrigatorios
+*** Validacao de formato e tamanho
+*** Checagem de secoes minimas
+*** Retorno com erros e alertas
+*** Painel simples de pendencias
+** Riscos
+*** Falso positivo ou falso negativo
+*** Variacao de padroes por curso
+*** Custo de processamento de arquivos grandes
+*** Resistencia por feedback pouco claro
+*** Dependencia de OCR em anexos digitalizados
+** Metricas de Sucesso
+*** Tempo medio de analise inicial
+*** Tempo entre submissao e retorno automatico
+*** Percentual de aprovacao sem retrabalho
+*** Taxa de reenvio por formatacao
+*** Satisfacao de estagiarios e coordenadores
+** Proximos Passos
+*** Validar regras com coordenadores
+*** Definir modelo de dados de validacao
+*** Prototipar tela de feedback
+*** Implementar e medir primeira iteracao
+@endmindmap
