@@ -6,7 +6,7 @@
 
 No Microsoft Store, instale o **Python mais atualizado** ou faça o download do site [python.org](https://www.python.org/downloads).
 
-![Instalação do Python via Microsoft Store](../assets/ambiente/python.png)
+![Instalação do Python via Microsoft Store](images/python.png)
 
 ## Visual Studio Code
 
@@ -64,7 +64,7 @@ Agora vamos instalar o ambiente virtual, que permite isolar pastas (projetos) co
 1. Aperte `Ctrl + Shift + P` e selecione **Python: Create Environment...**.
 2. Após a instalação, aparecerá a pasta `.venv`.
 
-![Criação de Ambiente Virtual](..//assets/ambiente/venv.pngassets/ambiente/venv.png)
+![Criação de Ambiente Virtual](../assets/ambiente/venv.png)
 
 [Pasta Venv](..//assets/ambiente/pastavenv.png)
 
@@ -146,7 +146,7 @@ Com esses passos realizados, já é possível replicar esse ambiente em outro lo
    ```
 3. Aperte `Ctrl + Shift + P` e selecione **Python: Create Environment**, utilizando o arquivo `requirements.txt` para instalar todas as bibliotecas necessárias.
 
-![Clonagem do Repositório](../assets/ambiente/git_clone.png)
+![Clonagem do Repositório](../assets/ambiente/git.png)
 
 ---
 
