@@ -1,0 +1,17 @@
+@startsalt
+{
+  {^
+    <b>FastDelivery - Buscar Restaurantes</b>
+  }
+  {
+    [🔍 Buscar...] | [Filtros ▼]
+  }
+  {
+    (X) Restaurante A      | ⭐ 4.5
+    () Restaurante B      | ⭐ 4.2
+    () Restaurante C      | ⭐ 4.7
+  }
+  {
+    [Ver Cardápio] | [Voltar]
+  }
+}
