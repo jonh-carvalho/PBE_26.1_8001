@@ -1,4 +1,50 @@
-.time {
-    color:red;
-    font-weight:bold;
+:root>* {
+  --md-primary-fg-color: #193257;
+  --md-primary-fg-color--light: #4c92fa;
+  font-weight: 500;
+  --md-primary-fg-color--dark: #4c92fa;
+  --md-primary-bg-color: #FAB90A;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--md-primary-fg-color);
+
+}
+
+.table td {
+  font-size: 1.7em;
+}
+
+.grid.four-cols {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.grid.four-cols ul {
+  display: contents;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.grid.four-cols li {
+  min-width: 0;
+}
+
+@media (max-width: 1024px) {
+  .grid.four-cols {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .grid.four-cols {
+    grid-template-columns: 1fr;
+  }
 }
