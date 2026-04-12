@@ -21,16 +21,21 @@ h6 {
 }
 
 .grid.four-cols {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
-}
-.grid.four-cols > * {
-    min-width: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
 }
 
+.grid.four-cols ul {
+  display: contents;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-
+.grid.four-cols li {
+  min-width: 0;
+}
 
 @media (max-width: 1024px) {
   .grid.four-cols {
