@@ -43,9 +43,9 @@ h6 {
 }
 
 .grid.four-cols li:hover {
-  border-color: #d8dde8;
-  box-shadow: 0 10px 24px rgba(25, 50, 87, 0.16);
-  transform: translateY(-2px);
+  border-color: #e7ebf2;
+  box-shadow: 0 4px 12px rgba(25, 50, 87, 0.08);
+  transform: translateY(-1px);
 }
 
 @media (max-width: 1024px) {
