@@ -35,6 +35,17 @@ h6 {
 
 .grid.four-cols li {
   min-width: 0;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 1rem;
+  background: #ffffff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.grid.four-cols li:hover {
+  border-color: #d8dde8;
+  box-shadow: 0 10px 24px rgba(25, 50, 87, 0.16);
+  transform: translateY(-2px);
 }
 
 @media (max-width: 1024px) {

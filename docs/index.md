@@ -11,11 +11,10 @@ hide:
 - <font color="#FAB90A">:material-github:{ .lg .middle } __ISkills - Não deixe de avaliar __</font>
     <img src="./assets/iskills.png" alt="iSkills" width="60px">
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __PBE_26.1_8001_I__</font>
-    
+- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_I](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_I)__</font>
     ---
     Bernardo, Davi, Viniius, Felipe, Luiz Fabiano  
-    [:octicons-arrow-right-24:  <font color="#FAB90A"> Repositório](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_I)
+    
     </font>
 
 - <font color="#FAB90A">:material-github:{ .lg .middle } __PBE_26.1_8001_II__</font>
