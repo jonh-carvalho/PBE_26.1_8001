@@ -13,7 +13,7 @@ hide:
 
 - <font color="#FAB90A"> :material-github:{ .lg .middle } __[PBE_26.1_8001_I](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_I)__ </font>
     
-    Bernardo, Davi, Viniius, Felipe, Luiz Fabiano  
+    Bruno, Micael, Maurício, Marcos Paulo, Christian e Gianluca  
     
     </font>
 
