@@ -19,6 +19,9 @@ nav:
           - RUP/UP: Disciplina/Roteiros/Iniciacao/04_RUPgithub.md
         - Elaboração:
           - RUP/UP: Disciplina/Roteiros/Elaboracao/06_LevantamentoRequisitos.md
+        - Construção:
+          - POO: Disciplina/Roteiros/Construcao/Poo/poo.ipynb
+          - POO Django: Disciplina/Roteiros/Construcao/Poo/poo_django.ipynb
         
   - Iniciação: 
       - Index: Iniciacao/index.md
@@ -106,6 +109,9 @@ plugins:
   - minify:
       minify_html: true
   - search
+  - mkdocs-jupyter:
+      execute: false
+      allow_errors: true
 
 theme:
   favicon: assets/ibmec_icon.png

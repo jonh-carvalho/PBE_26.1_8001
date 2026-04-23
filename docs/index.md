@@ -13,48 +13,46 @@ hide:
 
 - <font color="#FAB90A"> :material-github:{ .lg .middle } __[PBE_26.1_8001_I](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_I)__ </font>
     
-    Bruno, Micael, Maurício, Marcos Paulo, Christian e Gianluca  
+    Bruno, Christian, Gianluca, Micael, Marcos Paulo e Maurício 
     
     </font>
 
 - <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_II](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_II)__</font>
     
-    Bruno, Cauan, João Pedro, Guilherme Viana, Diogo  
+    Davi Ito, Gabriel Aguiar, Gabriel Lima, Jorge Alves e Rafael Barbosa  
     
 
 - <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8002_III](https://github.com/Projetos-de-Extensao/PBE_26.1_8002_III)__</font>
     
-    Vitor, Guilherme Reis, Mateus Reis, Pietro  
+    Bernardo, Caio, Daniel, Lucas e Otto  
     
 
 - <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_IV](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_IV)__</font>
     
-    Anderson, Bernardo, Gabriel, João Pedro  
+    Giovanna Perrone, Maria Eduarda Santos, João Pedro Nicacio, Julia Valente e Luana Miranda  
     
 
 - <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_V](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_V)__</font>
     
-    Bernardo, Davi, Viniius, Felipe, Luiz Fabiano  
+    Daniel Studart, Davi Jacob, João Paulo Dopcke, Felipe Ultramar e Gustavo Rezende  
 
 
 - <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_VI](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_VI)__</font>
     
-    Bruno, Cauan, João Pedro, Guilherme Viana, Diogo  
+    Henrique Cals, Guilherme Pinon, Caio Cunha, Henrique Mundy, João Pedro Sampaio e Pedro Paulo  
     
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8002_VII](https://github.com/Projetos-de-Extensao/PBE_26.1_8002_VII)__</font>
+- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_VII](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_VII)__</font>
     
-    Vitor, Guilherme Reis, Mateus Reis, Pietro  
-    
-
-- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.2_8002_VIII](https://github.com/Projetos-de-Extensao/PBE_26.2_8002_VIII)__</font>
-    
-    Anderson, Bernardo, Gabriel, João Pedro  
+    Gabriel Barreto, Guilherme Braz, Ísis Tavares, Mariana Faria e Matheus Avarenga  
     
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_IX](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_IX)__</font>
+- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_VIII](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_VIII)__</font>
     
-    Bernardo, Davi, Viniius, Felipe, Luiz Fabiano  
+    Marco Antonio, Lucas Calil, Gabriel de Santi, Francisco Fagner e Pedro Carvalho  
+    
+
+
 
 
 </div>
