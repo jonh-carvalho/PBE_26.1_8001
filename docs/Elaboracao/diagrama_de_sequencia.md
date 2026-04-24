@@ -1,87 +1,107 @@
 ---
-id: diagrama_de_casos de uso
-title: Diagrama de Casos de Uso
+id: diagrama_de_sequencia
+title: Diagrama de Sequência
 ---
 
-## Casos de Uso
+### Diagrama de Sequência
 
-### Descrição:
+O Diagrama de Sequência é uma representação visual que mostra a interação entre objetos ou componentes ao longo do tempo. Ele é usado para modelar o comportamento dinâmico de um sistema, ilustrando como os objetos colaboram para realizar uma funcionalidade específica.	
 
-- Contas
-	- Criação
-	- Entrada
-	- Alteração
-	- Recuperar Senha
-	- Exclusão Lógica
-	- Visualização
+#### Objetivo
 
-- Perfis
-	- Edição
-	- Pesquisar
-	- Visualização
-	- Seguir/Deixar de Seguir
+Definir um padrão para elaboração e registro dos Diagramas de Sequência, garantindo rastreabilidade com:
 
-- Postagens (Público) 	 	
-	- Criação
-	- Exclusão
-	- Interação
-	- Visualização
+- Casos de Uso
+- Diagrama de Casos de Uso
+- Documento de Levantamento de Requisitos
+- Protótipo de Baixa Fidelidade
 
-- Mensagens (Privado)
-	- Criação
-	- Exclusão
-	- Visualização
+#### Instruções de Preenchimento
 
-- Galerias
-	- Albuns
-- Blogs
-- Grupos
+1. Selecione um Caso de Uso prioritário.
+2. Identifique os requisitos funcionais e regras de negócio relacionados.
+3. Mapeie as telas/fluxos no protótipo de baixa fidelidade.
+4. Modele a interação entre ator(es), fronteira, controle e entidade.
+5. Valide consistência com o fluxo principal e fluxos alternativos.
 
-### Criação de uma conta no sistema
 
-* Atores:
+#### Template — Diagrama de Sequência por Caso de Uso
 
-	- Usuário
-	- Sistema
+##### 1. Identificação
 
-- Pré-Condições:
-	- Nenhuma
+- **Caso de Uso:**  
+- **ID do Caso de Uso:**  
+- **Ator(es):**  
+- **Prioridade:**  
+- **Responsável:**  
+- **Data:**  
 
-* Fluxo Básico:
-    1. Usuário fornece e-mail, senha e confirmações
-    2. Dados do Usuário são validados pelo Sistema
-    3. Dados do Usuário são encriptados pelo Sistema
-    4. Dados do Usuário são persistidos pelo Sistema
-    5. Sistema gera um link com prazo de expiração
-    6. Sistema envia e-mail de verificação, com o link, para o Usuário
-    7. Usuário confirma o e-mail antes do link expirar
-    8. Sistema confirma que o Cadastro do Usuário foi realizado com sucesso
-    9. Sistema redireciona o Usuário para a página de Entrada
+##### 2. Referências
 
-- Fluxos Alternativos:
-	- 2a. E-mail do Usuário é inválido
-		2a1. Sistema exibe mensagem de erro
-	- 2b. Senha do Usuário não respeita regras de segurança
-		- 2b1. Sistema exibe mensagem de erro
-	- 3a. Usuário tenta confirmar o e-mail depois de o link expirar
-		- 3a1. Sistema sugere que o Usuário realize um novo Cadastro
+- **Requisitos relacionados (ID):**  
+- **Diagrama de Caso de Uso (link/imagem):**  
+- **Protótipo de Baixa Fidelidade (tela/fluxo):**  
+- **Regra(s) de negócio associada(s):**  
 
-### Entrada do usuário no sistema
+##### 3. Cenário Modelado
 
-- Atores:
-	- Usuário
-	- Sistema
+- **Objetivo do cenário:**  
+- **Pré-condições:**  
+- **Pós-condições:**  
+- **Gatilho de início:**  
 
-- Pré-Condições:
-	Usuário deve estar cadastrado
+##### 4. Participantes (Lifelines)
 
-- Fluxo Básico:
-    - 1. Usuário fornece e-mail e senha
-	- 2. Sistema autentica o Usuário
-	- 3. Sistema redireciona o Usuário para a página inicial
+- **Ator:**  
+- **Boundary (Interface/Tela):**  
+- **Control (Orquestração):**  
+- **Entity (Dados/Serviços):**  
+- **Sistemas externos (se houver):**  
 
-- Fluxos Alternativos:
-	- 2a. Dados do Usuário Inválidos
-		- 2a1. Sistema exibe mensagem de erro
-	- 3a. Primeio acesso do Usuário
-		- 3a1. Sistema redireciona o Usuário para a página de edição de perfil
+##### 5. Fluxo Principal (mensagens)
+
+| Passo | Remetente | Destinatário | Mensagem/Ação | Tipo (sync/async/retorno) |
+|------:|-----------|--------------|---------------|----------------------------|
+| 1 |  |  |  |  |
+| 2 |  |  |  |  |
+| 3 |  |  |  |  |
+
+##### 6. Fluxos Alternativos e Exceções
+
+| ID | Condição | Descrição do fluxo | Impacto |
+|----|----------|--------------------|---------|
+| A1 |  |  |  |
+| E1 |  |  |  |
+
+##### 7. Regras de Negócio Aplicadas
+
+- **RN-xx:**  
+- **RN-yy:**  
+
+##### 8. Pontos de Validação
+
+- [ ] Fluxo compatível com Caso de Uso  
+- [ ] Mensagens consistentes com requisitos funcionais  
+- [ ] Alternativas/exceções representadas  
+- [ ] Participantes aderentes à arquitetura  
+- [ ] Correspondência com protótipo de baixa fidelidade  
+
+##### 9. Artefatos
+
+- **Imagem do Diagrama de Sequência:**  
+- **Arquivo fonte (PlantUML):**  
+- **Versão:**  
+
+---
+
+#### Exemplo de estrutura textual mínima (opcional)
+
+```text
+Ator inicia ação na Tela X
+Tela X envia solicitação para Controlador Y
+Controlador Y valida regra RN-01
+Controlador Y consulta Entidade/Serviço Z
+Entidade/Serviço Z retorna resultado
+Controlador Y responde à Tela X
+Tela X apresenta confirmação ao Ator
+```
