@@ -22,9 +22,9 @@ hide:
     Davi Ito, Gabriel Aguiar, Gabriel Lima, Jorge Alves e Rafael Barbosa  
     
 
-- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8002_III](https://github.com/Projetos-de-Extensao/PBE_26.1_8002_III)__</font>
+- <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_III](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_III)__</font>
     
-    Bernardo, Caio, Daniel, Lucas e Otto  
+    Pedro Santos, Gabriel Melo, Bernardo Brandão, Iago Viana, Gabriel Maccachero  
     
 
 - <font color="#FAB90A">:material-github:{ .lg .middle } __[PBE_26.1_8001_IV](https://github.com/Projetos-de-Extensao/PBE_26.1_8001_IV)__</font>
