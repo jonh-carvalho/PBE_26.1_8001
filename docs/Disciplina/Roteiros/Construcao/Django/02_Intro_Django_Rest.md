@@ -10,24 +10,24 @@ Primeiro, vamos instalar e configurar o DRF:
 pip install djangorestframework
 ```
 
-Adicione ao `INSTALLED_APPS` em `myproject/settings.py`:
+Adicione ao `INSTALLED_APPS` em `project/settings.py`:
 
 ```python
 INSTALLED_APPS = [
     ...
     'rest_framework',
-    'myapp',
+    'app',
 ]
 ```
 
 ## 2. Criação dos Serializers
 
-Crie um arquivo `serializers.py` na aplicação `minhaapp`:
+Crie um arquivo `serializers.py` na aplicação `app`:
 
 ```python
-# minhaapp/serializers.py
+# app/serializers.py
 from rest_framework import serializers
-from myapp.models import Produto
+from app.models import Produto
 
 class ProdutoSerializer(serializers.ModelSerializer):
     class Meta:
@@ -41,28 +41,16 @@ class ProdutoSerializer(serializers.ModelSerializer):
 Atualize ou crie um arquivo `api.py` na aplicação:
 
 ```python
-# minhaapp/api.py
+# app/api.py
 from rest_framework import viewsets, generics
 from rest_framework.response import Response
 from rest_framework.decorators import action
-from myapp.models import Produto
-from myapp.serializers import ProdutoSerializer
+from app.models import Produto
+from app.serializers import ProdutoSerializer
 
 class ProdutoViewSet(viewsets.ModelViewSet):
     queryset = Produto.objects.all()
     serializer_class = ProdutoSerializer
-    
-    @action(detail=False, methods=['get'])
-    def disponiveis(self, request):
-        produtos = Produto.objects.filter(disponivel=True)
-        serializer = self.get_serializer(produtos, many=True)
-        return Response(serializer.data)
-
-class ProdutosBaratosAPIView(generics.ListAPIView):
-    serializer_class = ProdutoSerializer
-    
-    def get_queryset(self):
-        return Produto.objects.filter(preco__lt=1000)
 ```
 
 ## 4. Configuração das URLs da API
@@ -70,81 +58,34 @@ class ProdutosBaratosAPIView(generics.ListAPIView):
 Crie um arquivo `api_urls.py` na aplicação:
 
 ```python
-# myapp/api_urls.py
+# app/api_urls.py
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from minhaapp.api import ProdutoViewSet, ProdutosBaratosAPIView
+from app.api import ProdutoViewSet
 
 router = DefaultRouter()
 router.register(r'produtos', ProdutoViewSet, basename='produto')
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('produtos/baratos/', ProdutosBaratosAPIView.as_view(), name='produtos-baratos'),
 ]
 ```
 
 Atualize o `urls.py` principal do projeto:
 
 ```python
-# myproject/urls.py
+# project/urls.py
 from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('myapp.urls')),  # URLs tradicionais
-    path('api/', include('minhaapp.api_urls')),  # URLs da API
-    path('api-auth/', include('rest_framework.urls')),  # Login para a API
+    path('', include('app.urls')),  # URLs tradicionais
+    path('api/', include('app.api_urls')),  # URLs da API
 ]
 ```
 
-## 5. Documentação da API com Swagger/OpenAPI
-
-Instale o drf-yasg para documentação:
-
-```bash
-pip install drf-yasg
-```
-
-Adicione ao `INSTALLED_APPS`:
-
-```python
-INSTALLED_APPS = [
-    ...
-    'drf_yasg',
-]
-```
-
-Atualize o `urls.py` principal:
-
-```python
-# myproject/urls.py
-from rest_framework import permissions
-from drf_yasg.views import get_schema_view
-from drf_yasg import openapi
-
-schema_view = get_schema_view(
-   openapi.Info(
-      title="API de Produtos",
-      default_version='v1',
-      description="API para gerenciamento de produtos",
-      terms_of_service="https://www.google.com/policies/terms/",
-      contact=openapi.Contact(email="contato@empresa.com"),
-      license=openapi.License(name="BSD License"),
-   ),
-   public=True,
-   permission_classes=(permissions.AllowAny,),
-)
-
-urlpatterns = [
-    # ... URLs existentes
-    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
-]
-```
-
-## 6. Testando a API
+## 5. Testando a API
 
 Agora você pode testar os endpoints da API:
 

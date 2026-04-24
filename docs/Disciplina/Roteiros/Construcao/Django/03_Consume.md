@@ -1,6 +1,6 @@
 # Acessando a API do Django REST Framework
 
-Para acessar sua API usando os endpoints do DRF e o Postman, siga estes passos:
+Para acessar sua API usando os endpoints do DRF, o Echo Api(VsCode) e o Postman, siga estes passos:
 
 ## Endpoints Disponíveis
 

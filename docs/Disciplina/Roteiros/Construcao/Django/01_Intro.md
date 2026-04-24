@@ -53,7 +53,7 @@ ou
 1. Crie o projeto Django:
 
    ```bash
-   django-admin startproject myproject .
+   django-admin startproject project .
    ```
 
    (O ponto no final cria o projeto no diretório atual)
@@ -61,7 +61,7 @@ ou
 2. Verifique a estrutura criada:
 
    ```
-   myproject/
+   project/
      __init__.py
      settings.py
      urls.py
@@ -71,7 +71,7 @@ ou
 
 ## Passo 4: Configurar o Banco de Dados SQLite
 
-1. O Django já vem configurado para usar SQLite por padrão (verifique em `myproject/settings.py`):
+1. O Django já vem configurado para usar SQLite por padrão (verifique em `project/settings.py`):
 
    ```python
    DATABASES = {
@@ -93,21 +93,21 @@ ou
 1. Crie uma nova aplicação:
 
    ```bash
-   python manage.py startapp myapp
+   python manage.py startapp app
    ```
 
-2. Adicione a aplicação ao `INSTALLED_APPS` em `myproject/settings.py`:
+2. Adicione a aplicação ao `INSTALLED_APPS` em `project/settings.py`:
 
    ```python
    INSTALLED_APPS = [
        ...
-       'myapp',
+       'app',
    ]
    ```
 
 ## Passo 6: Configurar URLs e Views Básicas
 
-1. Crie um arquivo `urls.py` na pasta `myapp`:
+1. Crie um arquivo `urls.py` na pasta `app`:
 
    ```python
    from django.urls import path
@@ -118,7 +118,7 @@ ou
    ]
    ```
 
-2. Inclua as URLs da aplicação no projeto principal (`myproject/urls.py`):
+2. Inclua as URLs da aplicação no projeto principal (`project/urls.py`):
 
    ```python
    from django.contrib import admin
@@ -126,11 +126,11 @@ ou
 
    urlpatterns = [
        path('admin/', admin.site.urls),
-       path('', include('myapp.urls')),
+       path('', include('app.urls')),
    ]
    ```
 
-3. Crie uma view básica em `myapp/views.py`:
+3. Crie uma view básica em `app/views.py`:
 
    ```python
    from django.shortcuts import render
@@ -142,7 +142,7 @@ ou
 
 ## Passo 7: Criar Modelos e Migrações
 
-1. Defina um modelo em `myapp/models.py`:
+1. Defina um modelo em `app/models.py`:
 
    ```python
    from django.db import models
@@ -172,7 +172,7 @@ ou
    python manage.py createsuperuser
    ```
 
-2. Registre o modelo no admin (`myapp/admin.py`):
+2. Registre o modelo no admin (`app/admin.py`):
 
    ```python
    from django.contrib import admin
@@ -180,6 +180,7 @@ ou
 
    admin.site.register(Produto)
    ```
+
 
 ## Passo 9: Executar o Servidor de Desenvolvimento
 
