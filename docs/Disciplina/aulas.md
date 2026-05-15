@@ -10,6 +10,16 @@
 | __06__ - 03/04/26     | :material-check: Feriado |
 | __07__ - 10/04/26     | :material-check: [Engenharia de Requisitos](..//assets/Aulas/Engenharia%20de%20Requisitos_Cap05.pdf)  <br> - [Análise OO e UML](../assets/Aulas/AnaliseOO&UML.pdf) <br> - Diagrama de Casos de Uso <br> - [Classes](../assets/Aulas/Classes_Pacotes.pdf)|
 | __08__ - 17/04/26     | :material-check: AP1   |
+| __09__ - 24/04/25     | :material-check: Roteiro Django - Introdução SQL - Sqlite  |
+| __10__ - 01/05/25     | :material-check: Feriado  |
+| __11__ - 07/05/25     | :material-check: Roteiro Django Rest - Intro Python BD |
+| __12__ - 14/05/25     | :material-check: Roteiro Streaming - Content 1xN|
+| __13__ - 23/05/25     | :material-check: Roteiro Streaming - PlayList NxN -  |
+| __14__ - 30/05/25     | :material-check: App |
+| __15__ - 05/06/25     | :material-check: Feriado |
+| __16__ - 12/06/25     | :material-check: AP2 |
+| __17__ - 19/06/25     | :material-check: |
+| __18__ - 26/06/25     | :material-check: AS |
 
 
 <!--

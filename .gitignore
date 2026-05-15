@@ -1,7 +1,7 @@
 # MkDocs
 site/
 .mkdocs.yml.bak
-
+.cache/
 # Python
 __pycache__/
 *.py[cod]
