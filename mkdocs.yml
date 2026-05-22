@@ -8,6 +8,22 @@ nav:
   - Home: index.md
   - Disciplina:
       - Aulas: Disciplina/aulas.md
+      - Streaming: 
+            - Projeto Streaming: Disciplina/Roteiros/Construcao/Streaming/00_Projeto_Streaming.md
+            - Regras de Negócio: Disciplina/Roteiros/Construcao/Streaming/01_Regras_Negocio.md
+            - Modelagem: Disciplina/Roteiros/Construcao/Streaming/02_Modelagem.md
+            - Rest API: Disciplina/Roteiros/Construcao/Streaming/03_Rest.md
+            - Consumo API: Disciplina/Roteiros/Construcao/Streaming/04_Consume.md
+            - Relacionamentos: Disciplina/Roteiros/Construcao/Streaming/05_Playlist_NxN.md
+            - Shell: Disciplina/Roteiros/Construcao/Streaming/06_Shell.md
+            - Swagger: Disciplina/Roteiros/Construcao/Streaming/07_Swagger.md
+            - CorsOrigin: Disciplina/Roteiros/Construcao/Streaming/08_CorsOrigin.md
+            - Consumo Frontend: Disciplina/Roteiros/Construcao/Streaming/09_Consume_Web.md
+            - Admin: Disciplina/Roteiros/Construcao/Streaming/10_Admin.md
+            - Autenticação: Disciplina/Roteiros/Construcao/Streaming/12_Authentication.md
+            - Filtros: Disciplina/Roteiros/Construcao/Streaming/13_Filtros.md
+            - Regras de Negócio Avançadas: Disciplina/Roteiros/Construcao/Streaming/14_Regras_Negocio.md
+            - Deploy: Disciplina/Roteiros/Construcao/Streaming/15_Deploy.md
       - Roteiros:
         - Iniciação: 
           - DT: Disciplina/Roteiros/Iniciacao/04_DesignThinking.md
@@ -25,13 +41,6 @@ nav:
           - BD:
             - Intro SQL: Disciplina/Roteiros/Construcao/BD/pysqlite.ipynb
             - SQL: Disciplina/Roteiros/Construcao/BD/sqlite.md 
-          - Streaming: 
-            - Projeto Streaming: Disciplina/Roteiros/Construcao/Streaming/00_Projeto_Streaming.md
-            - Regras de Negócio: Disciplina/Roteiros/Construcao/Streaming/01_Regras_Negocio.md
-            - Modelagem: Disciplina/Roteiros/Construcao/Streaming/02_Modelagem.md
-            - Rest API: Disciplina/Roteiros/Construcao/Streaming/03_Rest.md
-            - Consumo API: Disciplina/Roteiros/Construcao/Streaming/04_Consume.md
-      - Ambiente: Disciplina/ambiente.md
       - Github: Disciplina/github.md
       - Mkdocs: Disciplina/mkdocs.md
       - Avaliações: Disciplina/avaliacoes.md
